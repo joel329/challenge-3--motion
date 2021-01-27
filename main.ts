@@ -3,6 +3,8 @@ while (true) {
         light.showAnimation(light.rainbowAnimation, 500)
     } else if (input.acceleration(Dimension.Y) > 30) {
         light.showAnimation(light.rainbowAnimation, 500)
+    } else if (input.acceleration(Dimension.Z) > 30) {
+        light.showAnimation(light.rainbowAnimation, 500)
     } else {
         light.clear()
     }
